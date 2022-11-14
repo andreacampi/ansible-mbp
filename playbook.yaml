@@ -1,0 +1,6 @@
+- name: Update MBP setup
+  hosts: mbp
+  tasks:
+    - name: Install Ableton 11 Standard
+      homebrew_cask:
+        name: ableton-live-standard
