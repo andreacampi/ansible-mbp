@@ -4,3 +4,6 @@
     - name: Install Ableton 11 Standard
       homebrew_cask:
         name: ableton-live-standard
+    - name: Install Splice
+      homebrew_cask:
+        name: splice
