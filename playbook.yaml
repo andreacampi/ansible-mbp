@@ -10,3 +10,6 @@
     - name: Install Derivative TouchDesigner
       homebrew_cask:
         name: touchdesigner
+    - name: Install VCV Rack
+      homebrew_cask:
+        name: vcv-rack
