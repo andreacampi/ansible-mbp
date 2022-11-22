@@ -7,3 +7,6 @@
     - name: Install Splice
       homebrew_cask:
         name: splice
+    - name: Install Derivative TouchDesigner
+      homebrew_cask:
+        name: touchdesigner
